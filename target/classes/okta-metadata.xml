@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<md:EntityDescriptor entityID="http://www.okta.com/exk72f64paqWWLIBO5d7" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata">
+    <md:IDPSSODescriptor WantAuthnRequestsSigned="false" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data>
+                    <ds:X509Certificate>MIIDpjCCAo6gAwIBAgIGAYQr7LzZMA0GCSqGSIb3DQEBCwUAMIGTMQswCQYDVQQGEwJVUzETMBEG
+A1UECAwKQ2FsaWZvcm5pYTEWMBQGA1UEBwwNU2FuIEZyYW5jaXNjbzENMAsGA1UECgwET2t0YTEU
+MBIGA1UECwwLU1NPUHJvdmlkZXIxFDASBgNVBAMMC2Rldi0yMTQ4MjczMRwwGgYJKoZIhvcNAQkB
+Fg1pbmZvQG9rdGEuY29tMB4XDTIyMTAzMTAyNDMwNVoXDTMyMTAzMTAyNDQwNVowgZMxCzAJBgNV
+BAYTAlVTMRMwEQYDVQQIDApDYWxpZm9ybmlhMRYwFAYDVQQHDA1TYW4gRnJhbmNpc2NvMQ0wCwYD
+VQQKDARPa3RhMRQwEgYDVQQLDAtTU09Qcm92aWRlcjEUMBIGA1UEAwwLZGV2LTIxNDgyNzMxHDAa
+BgkqhkiG9w0BCQEWDWluZm9Ab2t0YS5jb20wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIB
+AQC2dZ+hWkUppS62D9G3PABfvsS7lL8dlvAM+ZY+hFgtxKJ/J+BfMiaZ555OwzvGEzPzZs/wtb/5
+5LrEO50SCrZAJwmYZuwIQEZ86V335yUgtCLhC/uebpMzs22iJ0IgrkGUfWadKdLZRU9ufTk/+97O
+t6qFPHMhgZZhYbyxQrOO/Cg/BmNGx80gvIl7aTwZymgwTIyp1RCXaQzwPmfqmyM9oJ/EzwtjwR50
+Aws1jo4zJU1Scp/9GaMH3prb6YCAGuZxe0aLyh6WxuyVIjSqoG7FxX9Lf+SViPlrnMKfkJHYSVAI
+Y+17Cz/DxF8DvdM6PGxgPXCA/LemKlzbUvC+VD0bAgMBAAEwDQYJKoZIhvcNAQELBQADggEBAHPt
+u2v+HkKg2D9u2gOfQyY7+PuUJ06hJDxpUgMxGeeiVCly/KWK0tCRG2qm6Hc2iGb/GBg3diDi2Kv2
+W5AlPWl3P99v/AM7EDLbas6sYSXaf0XHeK2gnuhW51IPXJmKP3HNNxzesgUDzkCn+CzDMDWWQMZU
+bQw3293olNUoF6+heER+L6Cit6R5H6vGpNbWyK6cC0nrYQF8ndCUHE8qYbVj/bVKVMrUwUCVWP8c
+xZ1/ni0Brq496rXsbf+cVrpI71/Qw8UkGJscIFMP0imG+ROa7ugZir5RZIO4KcMYV2vnzBzdmNFe
+JhmTlgpARfIQi+vDYDqVyHvd6fWAEf+3IDg=</ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://dev-2148273.okta.com/app/dev-2148273_carsonline_1/exk72f64paqWWLIBO5d7/slo/saml" />
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://dev-2148273.okta.com/app/dev-2148273_carsonline_1/exk72f64paqWWLIBO5d7/slo/saml" />
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</md:NameIDFormat>
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress</md:NameIDFormat>
+        <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://dev-2148273.okta.com/app/dev-2148273_carsonline_1/exk72f64paqWWLIBO5d7/sso/saml" />
+        <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://dev-2148273.okta.com/app/dev-2148273_carsonline_1/exk72f64paqWWLIBO5d7/sso/saml" />
+    </md:IDPSSODescriptor>
+</md:EntityDescriptor>
