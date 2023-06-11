@@ -63,6 +63,11 @@ public class CarsOnlineController {
 	public String showUser() {	
 		return "user";
 	}
+
+	@GetMapping("/cgi-bin/saml-consumer.py")
+	public String getPhonyPython() {
+		return "Yay!";
+	}
 	
 
 }
